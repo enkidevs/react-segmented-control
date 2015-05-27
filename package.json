@@ -1,0 +1,28 @@
+{
+  "name": "react-segmented-control",
+  "version": "0.1.0",
+  "description": "Simple react.js component for a segmented control",
+  "main": "react-segmented-control.js",
+  "dependencies": {
+    "react": "0.x"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enki-com/react-segmented-control"
+  },
+  "keywords": [
+    "react",
+    "segmented",
+    "control",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "author": "Mathieu Dutour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enki-com/react-segmented-control/issues"
+  },
+  "homepage": "https://github.com/enki-com/react-segmented-control"
+}

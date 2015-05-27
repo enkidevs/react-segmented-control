@@ -1,0 +1,16 @@
+.segmented-control {
+}
+.segmented-control input {
+  display: none;
+}
+.segmented-control .label {
+  text-align: center;
+  transition: all 0.2s ease-out;
+}
+.segmented-control .label label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  cursor: pointer;
+}
