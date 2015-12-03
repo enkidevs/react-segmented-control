@@ -1,9 +1,9 @@
 {
   "name": "react-segmented-control",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple react.js component for a segmented control",
   "main": "react-segmented-control.js",
-  "dependencies": {
+  "peerDependencies": {
     "react": "0.x"
   },
   "scripts": {},
