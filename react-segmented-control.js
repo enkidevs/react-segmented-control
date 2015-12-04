@@ -29,8 +29,8 @@
         React.createElement("div",
                 {className: 'segmented-control ' + this.props.className},
           this.props.children.map(function(child, index) {
-            var selected = child.props.value === this.state.selected ||
-                           index === this.state.selected;
+            var selected = (child.props || {}).value === this.state.selected ||
+                            index === this.state.selected;
             return (
               React.createElement("div", {
                 className: 'label' + (selected ? ' selected' : ''),
@@ -39,7 +39,7 @@
                   type: "radio",
                   name: "sc-" + this.props.name,
                   id: "sc-" + this.props.name + index,
-                  value: child.props.value || index,
+                  value: (child.props || {}).value || index,
                   checked: selected,
                   onChange: this.handleChange}),
                 React.createElement("label", {

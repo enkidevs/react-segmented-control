@@ -4,7 +4,7 @@
     "react-segmented-control.js",
     "react-segmented-control.css"
   ],
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/enki-com/react-segmented-control",
   "description": "Simple react.js component for a segmented control",
   "keywords": [
